@@ -1,1 +1,5 @@
+CREATE TABLE telemetry_y2026m03 PARTITION OF device_telemetry
+    FOR VALUES FROM ('2026-03-01') TO ('2026-04-01');
 
+CREATE TABLE telemetry_y2026m04 PARTITION OF device_telemetry
+    FOR VALUES FROM ('2026-04-01') TO ('2026-05-01');
