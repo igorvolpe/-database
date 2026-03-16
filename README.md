@@ -11,6 +11,6 @@ Este projeto demonstra uma arquitetura de banco de dados de alta performance par
 Utilizei o comando `EXPLAIN ANALYZE` para validar a eficiência do particionamento. 
 O banco realizou o **Partition Pruning**, buscando dados apenas na partição necessária (`telemetry_y2026m03`), resultando em um tempo de execução de apenas **0.02ms**.
 
-https://supabase.com/dashboard/project/aqdgxqitxvbpmtaosyid/sql/0c33dbe0-485d-415e-b9fb-1104bbfeb51a
+https://github.com/igorvolpe/-database/issues/1#issue-4082910735
 ## 🏗️ Estrutura do Banco
 O sistema gerencia clientes, dispositivos e milhões de registros de telemetria de forma particionada por mês, garantindo que o crescimento da base não degrade as consultas.
